@@ -11,7 +11,7 @@ class OperationalSystem {
         $this.Architecture = $CIM_OS.OSArchitecture;
     }
 
-    [string]  ToString(){
+    [string] ToString(){
         return "$($this.Name)($($this.Architecture)) | $($this.Manufacturer)";
     }
 
